@@ -1,7 +1,5 @@
 import React, { Component, Link } from "react";
-
 import "./nav.scss";
-
 
 export default class Nav extends Component {
     render() {

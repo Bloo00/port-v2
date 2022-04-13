@@ -1,0 +1,12 @@
+.footer-wrapper {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: beige;
+    justify-content: center;
+}
+
+li {
+    display: inline;
+}

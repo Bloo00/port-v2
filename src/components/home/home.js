@@ -3,8 +3,7 @@ import React, { Component } from "react";
 import "./home.scss";
 
 import Nav from "../navbar/nav";
-import barGraph from "./bargraph/bar";
-
+import Foot from "../footer/footer";
 
 export default class Home extends Component {
     render() {
@@ -33,7 +32,9 @@ export default class Home extends Component {
                             <img className="pics" src="#" alt="somepics" />
                         </div>
                     </div>
-
+                    
+                    <hr className="divider" />
+                    
                     <div className="dark-portion">
                         <div className="skills">
                             <div className="skill-title">My fancy skills :D</div>
@@ -46,6 +47,8 @@ export default class Home extends Component {
                         </div>
                     </div>
 
+                    <hr className="divider" />
+                    
                     <div className="light-portion">
                         <div className="tidbitty-pic-holder"><img className="tidbity-pic" src="#" alt="..." /></div>
                         <div className="my-tidbits-holder">
@@ -61,6 +64,8 @@ export default class Home extends Component {
                         </div>
                     </div>
 
+                    <hr className="divider" />
+                    
                     <div className="dark-portion">
                         <div className="story-holder">
                             <h2 className="story-title">Bloo's life</h2>
@@ -69,6 +74,7 @@ export default class Home extends Component {
                         <div className="story-pic-holder"><img className="story-pic"alt="baby pic of bloo" src="#"/></div>
                     </div>
                 </div>
+                <Foot />
             </>
         )
     }
