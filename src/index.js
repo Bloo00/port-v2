@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 
-import Canvas from './Canvas'
-
 ReactDOM.render(
   <React.StrictMode>
     <App />
