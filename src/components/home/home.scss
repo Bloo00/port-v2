@@ -1,0 +1,71 @@
+.container {
+    display: grid;
+    justify-content: center;
+    font-family: 'Share Tech', sans-serif;
+    height:max-content;
+    background-color: #070b34;
+}
+
+.light-portion {
+    padding: 10% 0 10% 0;
+    background-color: #2b2f77;
+    display: grid;
+    justify-content: center;
+    color: #FFFBC8;
+}
+
+.dark-portion {
+    background-color: darkgray;
+    padding: 10% 0 10% 0;
+    display: grid;
+    justify-content: center;
+    background-color: #070b34;
+    color: #FFFBC8;
+    border-style: groove;
+}
+
+.divider {
+    margin: 0 0 0 0;
+}
+
+.my-face {
+    border-radius: 50%;
+    max-width: 25vw;
+    min-width: 20vw;
+}
+
+.pics {
+    border-radius: 15%;
+    max-width: 15vw;
+    min-width: 10vw;
+}
+
+.big-header {
+    font-weight: bold;
+    text-indent: 10%;
+    font-size: 45px;
+}
+
+.about {
+    text-indent: 6%;
+    margin-left: 2%;
+}
+
+.smol-about {
+    font-size: small;
+    margin-left: 2%;
+}
+
+.top-portion {
+    display: flex;
+    justify-content: space-around;
+}
+
+.random-pics-holder {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tidbits-holder {
+    display: grid;
+}

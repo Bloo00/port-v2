@@ -6,13 +6,13 @@ export default class Nav extends Component {
         return (
             <>
                 <div className="wrapper">
-                    <div className="logo">Ky</div>
-                    <div className="about">portfolio</div>
-                    <div className="portfolio">portfolio</div>
-                    <div className="contact">contact</div>
+                    <button className="logo cursor"></button>
+                    <div className="about cursor">about</div>
+                    <div className="portfolio cursor">portfolio</div>
+                    <div className="contact cursor">contact</div>
 
-                    <div className="linked-in"><img alt="linked in logo" src="#"></img></div>
-                    <div className="github"><img alt="github logo" src="#"></img></div>
+                    <div className="linked-in cursor"><img alt="linked in logo" src="#"></img></div>
+                    <div className="github cursor"><img alt="github logo" src="#"></img></div>
                 </div>
             </>
         )

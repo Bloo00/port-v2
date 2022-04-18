@@ -1,22 +1,33 @@
 
 .wrapper {
+    top:0;
+    position: absolute;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // change this or imma kms
-    background-color: beige;
-    font-family: 'Cabin Sketch', cursive;
+    background-color: #070b34;
+    font-family: 'Lobster', cursive;
     min-height: 5vh;
+    color: #FFFBC8;
+    border-style: groove;
+    // opacity: 50%;
 }
 
 .logo {
+    position: relative;
+    display: block;
+    margin: 1rem;
+    width: 4vh;
+    height: 4vh;
+    background-color: transparent;
+    box-shadow: inset -12px 5px 0 3px #f3d076;
     border-radius: 50%;
-    min-width: 5vh;
-    min-height: 5vh;
-    background-color: aqua;
-    text-align: center;
-    vertical-align: middle;
-    font-family: 'Cabin Sketch', cursive;
-    font-size: xxx-large;
-    line-height: 5vh;
+    transform: rotate(65deg);
+    border: none;
+    cursor: pointer;
+}
+
+.cursor {
+    cursor: pointer;
 }
